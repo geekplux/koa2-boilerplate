@@ -4,7 +4,9 @@
   "description": "Minimal koa v2 boilerplate.",
   "main": "app.js",
   "scripts": {
-    "test": "test"
+    "test": "make test",
+    "babel-node": "babel-node --ignore='node_modules'",
+    "dev": "nodemon --exec npm run babel-node app.js"
   },
   "repository": {
     "type": "git",
@@ -24,5 +26,13 @@
   "homepage": "https://github.com/geekplux/koa2-boilerplate#readme",
   "dependencies": {
     "koa": "^2.0.0-alpha.3"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-3": "^6.3.13",
+    "mocha": "^2.3.4",
+    "should": "^8.1.1",
+    "supertest": "^1.1.0"
   }
 }
