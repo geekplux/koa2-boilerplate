@@ -6,7 +6,7 @@
   "scripts": {
     "test": "make test",
     "babel-node": "babel-node --ignore='node_modules'",
-    "dev": "nodemon --exec npm run babel-node app.js"
+    "start": "nodemon --exec npm run babel-node app.js"
   },
   "repository": {
     "type": "git",
@@ -29,8 +29,12 @@
   },
   "devDependencies": {
     "babel-cli": "^6.4.0",
+    "babel-plugin-transform-runtime": "^6.4.3",
     "babel-preset-es2015": "^6.3.13",
+    "babel-preset-es2015-node5": "^1.1.1",
     "babel-preset-stage-3": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "babel-runtime": "^6.3.19",
     "mocha": "^2.3.4",
     "should": "^8.1.1",
     "supertest": "^1.1.0"
