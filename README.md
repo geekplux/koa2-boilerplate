@@ -17,11 +17,14 @@ A minimal boilerplate of [koa v2](https://github.com/koajs/koa/issues/533).
 
     npm test
 
+### Lint
+    
+    standard
+
 
 ## Dependencies
 
 - Watcher and hot-reload: [nodemon](http://nodemon.io/)
-- **Lint**: [standard](https://github.com/feross/standard)
 - Test:
     + [mocha](https://mochajs.org/)
     + [should](https://github.com/tj/should.js/)
@@ -30,7 +33,8 @@ A minimal boilerplate of [koa v2](https://github.com/koajs/koa/issues/533).
     + tools: babel-cli, babel-register
     + presets: babel-preset-es2015, babel-preset-es2015-node5, babel-preset-stage-3
     + plugins: babel-runtime, babel-plugin-transform-runtime
-
+- *Lint*: [standard](https://github.com/feross/standard)
+    + add `babel-eslint` for ES6/ES7 support
 
 ## Reference
 
