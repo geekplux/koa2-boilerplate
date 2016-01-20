@@ -1,0 +1,28 @@
+{
+  "name": "koa2-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimal koa v2 boilerplate.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekplux/koa2-boilerplate.git"
+  },
+  "keywords": [
+    "koa",
+    "koa2",
+    "babel",
+    "es2015"
+  ],
+  "author": "GeekPlux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekplux/koa2-boilerplate/issues"
+  },
+  "homepage": "https://github.com/geekplux/koa2-boilerplate#readme",
+  "dependencies": {
+    "koa": "^2.0.0-alpha.3"
+  }
+}
