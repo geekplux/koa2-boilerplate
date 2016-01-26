@@ -3,23 +3,20 @@
 A minimal boilerplate of [koa v2](https://github.com/koajs/koa/issues/533).
 
 
-## Cli Command
+## Command
 
-### Setup
+#### Setup
 
     npm install
 
-### Develop
+#### Develop
 
     npm start
 
-### Test
+#### Test
 
     npm test
 
-### Lint
-    
-    standard
 
 
 ## Dependencies
@@ -31,15 +28,15 @@ A minimal boilerplate of [koa v2](https://github.com/koajs/koa/issues/533).
     + [supertest](https://github.com/visionmedia/supertest)
 - Build: [babel](http://babeljs.io/)
     + tools: babel-cli, babel-register
-    + presets: babel-preset-es2015, babel-preset-es2015-node5, babel-preset-stage-3
-    + plugins: babel-runtime, babel-plugin-transform-runtime
-- *Lint*: [standard](https://github.com/feross/standard)
-    + add `babel-eslint` for ES6/ES7 support
+    + presets: babel-preset-es2015-node5
+    + plugins: transform-async-to-generator, syntax-async-functions
+- *Lint*: 
+    You can choose the lint tool that you prefer.
 
 ## Reference
 
-- https://github.com/koajs/koa/issues/533
-- https://github.com/koajs/koa/issues/596
+- koajs/koa#533
+- koajs/koa#596
 
 
 ## License
