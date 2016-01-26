@@ -29,21 +29,12 @@
   },
   "devDependencies": {
     "babel-cli": "^6.4.0",
-    "babel-eslint": "^5.0.0-beta6",
     "babel-plugin-syntax-async-functions": "^6.3.13",
     "babel-plugin-transform-async-to-generator": "^6.4.6",
     "babel-preset-es2015-node5": "^1.1.1",
     "babel-register": "^6.4.3",
     "mocha": "^2.3.4",
     "should": "^8.1.1",
-    "standard": "^3.0.1",
     "supertest": "^1.1.0"
-  },
-  "standard": {
-    "globals": [
-      "describe",
-      "it"
-    ],
-    "parser": "babel-eslint"
   }
 }
