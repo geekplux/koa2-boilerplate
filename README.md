@@ -24,13 +24,13 @@ A minimal boilerplate of [koa v2](https://github.com/koajs/koa/issues/533).
 - Watcher and hot-reload: [nodemon](http://nodemon.io/)
 - Test:
     + [mocha](https://mochajs.org/)
-    + [should](https://github.com/tj/should.js/)
+    + [should](https://github.com/shouldjs/should.js)
     + [supertest](https://github.com/visionmedia/supertest)
 - Build: [babel](http://babeljs.io/)
     + tools: babel-cli, babel-register
     + presets: babel-preset-es2015-node5
     + plugins: transform-async-to-generator, syntax-async-functions
-- *Lint*: 
+- *Lint*:
     You can choose the lint tool that you prefer.
 
 ## Reference

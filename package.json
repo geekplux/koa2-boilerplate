@@ -2,11 +2,10 @@
   "name": "koa2-boilerplate",
   "version": "1.0.0",
   "description": "Minimal koa v2 boilerplate.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "make test",
-    "babel-node": "babel-node --ignore='node_modules'",
-    "start": "nodemon --exec npm run babel-node app.js"
+    "start": "./node_modules/.bin/nodemon"
   },
   "repository": {
     "type": "git",
@@ -28,13 +27,12 @@
     "koa": "^2.0.0-alpha.3"
   },
   "devDependencies": {
-    "babel-cli": "^6.4.0",
-    "babel-plugin-syntax-async-functions": "^6.3.13",
-    "babel-plugin-transform-async-to-generator": "^6.4.6",
-    "babel-preset-es2015-node5": "^1.1.1",
+    "babel-preset-es2015-node5": "^1.1.2",
+    "babel-preset-stage-0": "^6.3.13",
     "babel-register": "^6.4.3",
     "mocha": "^2.3.4",
-    "should": "^8.1.1",
+    "nodemon": "^1.8.1",
+    "should": "^8.2.0",
     "supertest": "^1.1.0"
   }
 }
