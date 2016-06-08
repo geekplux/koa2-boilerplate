@@ -2,6 +2,8 @@
 
 A minimal boilerplate of [koa v2](https://github.com/koajs/koa/issues/533).
 
+[![NPM Version][npm-image]][npm-url]
+[![NPM Downloads][downloads-image]][downloads-url]
 
 ## Installation
 
@@ -47,3 +49,10 @@ A minimal boilerplate of [koa v2](https://github.com/koajs/koa/issues/533).
 ## License
 
 MIT &copy; [GeekPlux](https://github.com/geekplux)
+
+
+
+[npm-image]: https://img.shields.io/npm/v/koa2-boilerplate.svg
+[npm-url]: https://npmjs.org/package/koa2-boilerplate
+[downloads-image]: https://img.shields.io/npm/dm/koa2-boilerplate.svg
+[downloads-url]: https://npmjs.org/package/koa2-boilerplate
