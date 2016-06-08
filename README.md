@@ -3,6 +3,11 @@
 A minimal boilerplate of [koa v2](https://github.com/koajs/koa/issues/533).
 
 
+## Installation
+
+    npm install koa2-boilerplate
+
+
 ## Command
 
 #### Setup
