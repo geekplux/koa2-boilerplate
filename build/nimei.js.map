@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/nimei.js"],"names":["msg","console","log"],"mappings":";;;;;;kBAAgBA,GAAD,IAAU;AACvBC,UAAQC,GAAR,CAAa,UAAQF,GAAI,GAAzB;AACD,C","file":"nimei.js","sourcesContent":["export default (msg) =>  {\r\n  console.log(`nimei:${msg}`);\r\n};\r\n"]}

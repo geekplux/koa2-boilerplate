@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "附加",
+      "type": "node",
+      "request": "attach",
+      "port": 5858,
+      "address": "localhost",
+      "restart": true,
+      "sourceMaps": true,
+      "outFiles": [
+        "${workspaceRoot}/build/*.js"
+      ],
+      "localRoot": "${workspaceRoot}",
+      "remoteRoot": null
+    }
+  ]
+}

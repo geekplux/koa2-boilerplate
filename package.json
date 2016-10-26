@@ -2,10 +2,11 @@
   "name": "koa2-boilerplate",
   "version": "1.0.0",
   "description": "Minimal koa v2 boilerplate.",
-  "main": "index.js",
+  "main": "./build/app.js",
   "scripts": {
     "test": "make test",
-    "start": "./node_modules/.bin/nodemon"
+    "start": "node --debug",
+    "complie": "babel src -d build -s -w"
   },
   "repository": {
     "type": "git",
