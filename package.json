@@ -1,0 +1,40 @@
+{
+  "name": "koa2-boilerplate",
+  "version": "1.0.0",
+  "description": "Minimal koa v2 boilerplate.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test",
+    "start": "./node_modules/.bin/nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geekplux/koa2-boilerplate.git"
+  },
+  "keywords": [
+    "koa",
+    "koa2",
+    "babel",
+    "es2015"
+  ],
+  "author": "GeekPlux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/geekplux/koa2-boilerplate/issues"
+  },
+  "homepage": "https://github.com/geekplux/koa2-boilerplate#readme",
+  "dependencies": {
+    "koa": "^2.0.0-alpha.3"
+  },
+  "devDependencies": {
+    "babel-plugin-syntax-async-functions": "^6.8.0",
+    "babel-plugin-transform-async-to-generator": "^6.8.0",
+    "babel-preset-es2015-node5": "^1.1.2",
+    "babel-preset-stage-0": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "mocha": "^2.3.4",
+    "nodemon": "^1.8.1",
+    "should": "^8.2.0",
+    "supertest": "^1.1.0"
+  }
+}
