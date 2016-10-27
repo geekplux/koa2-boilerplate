@@ -5,7 +5,8 @@
   "main": "./build/app.js",
   "scripts": {
     "test": "make test",
-    "start": "nodemon --debug",
+    "debug": "nodemon --debug",
+    "start": "nodemon ./index.js",
     "complie": "babel src -d build -s -w"
   },
   "repository": {

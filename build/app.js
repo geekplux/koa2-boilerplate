@@ -17,7 +17,7 @@ const app = new _koa2.default();
 app.use((() => {
   var _ref = _asyncToGenerator(function* (ctx) {
     ctx.body = 'Hello Woddffrld';
-    (0, _nimei2.default)('nimeddfd');
+    (0, _nimei2.default)('nimefd');
   });
 
   return function (_x) {
