@@ -2,6 +2,28 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "启动",
+      "type": "node",
+      "request": "launch",
+      "preLaunchTask": "complie",      
+      "program": "${workspaceRoot}/build/app.js",
+      "stopOnEntry": false,
+      "args": [],
+      "cwd": "${workspaceRoot}",
+      "runtimeExecutable": null,
+      "runtimeArgs": [
+        "--nolazy"
+      ],
+      "env": {
+        "NODE_ENV": "development"
+      },
+      "console": "internalConsole",
+      "sourceMaps": true,
+      "outFiles": [
+        "${workspaceRoot}/build/*.js"
+      ]
+    },
+    {
       "name": "附加",
       "type": "node",
       "request": "attach",
@@ -15,6 +37,15 @@
       ],
       "localRoot": "${workspaceRoot}",
       "remoteRoot": null
+    },
+    {
+      "name": "附加到进程",
+      "type": "node",
+      "request": "attach",
+      "processId": "${command.PickProcess}",
+      "port": 5858,
+      "sourceMaps": false,
+      "outFiles": []
     }
   ]
 }
