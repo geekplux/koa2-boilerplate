@@ -1,1 +1,0 @@
-{"version":3,"sources":["../src/arr.js"],"names":[],"mappings":";;;;;kBAAe,CAAC,CAAD,EAAG,CAAH,EAAK,CAAL,EAAO,CAAP,EAAS,CAAT,EAAW,CAAX,C","file":"arr.js","sourcesContent":["export default [1,3,5,7,8,9]\r\n"]}

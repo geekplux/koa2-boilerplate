@@ -8,6 +8,7 @@
       "port": 5858,
       "address": "localhost",
       "restart": true,
+      "preLaunchTask": "complie",
       "sourceMaps": true,
       "outFiles": [
         "${workspaceRoot}/build/*.js"

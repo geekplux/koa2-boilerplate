@@ -1,5 +1,5 @@
 {
-    "extends": "Airbnb",
+    // "extends": "Airbnb",
     "sourceType": "module",
     "rules": {
         "indent": [
