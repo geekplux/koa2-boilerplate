@@ -27,7 +27,8 @@ Both ways you can start:
 
     npm test
 
-
+#### debug
+    f5 in vscode
 
 ## Dependencies
 
