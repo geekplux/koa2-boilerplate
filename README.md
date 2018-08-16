@@ -1,4 +1,6 @@
-# koa2-boilerplate
+# koa2-boilerplate [Deprecated]
+
+⚠️ **This project is created 3 years ago in order to try koa2. now it's outdated.**
 
 > A minimal boilerplate of [koa v2](https://github.com/koajs/koa/issues/533).
 
